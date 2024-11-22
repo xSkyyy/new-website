@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/butterfly",
+        "destination": "https://bsky.app/profile/skylar.pet",
+        "permanent": true
+      }
+    ]
+  }
+  
