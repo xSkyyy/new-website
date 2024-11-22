@@ -3,8 +3,6 @@ import { Github, Twitter, Mail, PawPrint, Send } from 'lucide-react';
 import SocialLink from './components/SocialLink';
 import Avatar from './components/Avatar';
 import BubbleBackground from './components/BubbleBackground';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import ButterflyRedirect from './ButterflyRedirect';
 
 
 
@@ -54,20 +52,6 @@ function App() {
       </div>
     </>
   );
-}
-
-const App: React.FC = () => {
-    return (
-        <Router>
-              <Routes>
-                      <Route path="/" element={<MainSite />} /> {/* Main Site Component */}
-                              <Route path="/butterfly" element={<ButterflyRedirect />} />
-                                      {/* Other routes */}
-                                            </Routes>
-                                                </Router>
-                                                  );
-                                                  };
-                                                  
 }
 
 export default App;
