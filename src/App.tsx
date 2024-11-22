@@ -15,7 +15,7 @@ function App() {
         <div className="relative z-10 min-h-screen flex items-center justify-center p-4">
           <div className="max-w-md w-full space-y-8 py-12">
             <Avatar
-              imageUrl="public/media/pfp.jpg"
+              imageUrl="https://xskyyy.sirv.com/pfp.png"
               name="SkylarFem"
               title="Content Creator // Developer // Administrator"
             />
