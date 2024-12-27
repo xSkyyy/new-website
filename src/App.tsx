@@ -28,7 +28,7 @@ function App() {
               />
               <SocialLink
                 icon={<Twitter className="w-5 h-5" />}
-                label="Twitter (Depricated)"
+                label="Twitter"
                 href="https://x.com/skylarfem"
               />
               <SocialLink
